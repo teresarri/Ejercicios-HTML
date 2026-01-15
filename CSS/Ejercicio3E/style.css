@@ -1,28 +1,33 @@
 .formulario{
     margin: 10px;
-    border-radius: 15px;
     box-shadow: 0px 0px 10px 0px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     background-color: rbb(241,241,241);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 & div{
-    padding: 10px;
+    padding: 1px;
     display: flex;
-    flex-direction: column;
+      
+}
+
+& label{
+    display: inline-block;
+    width: 120px;
 }
 
 & button{
-    background-color: #8dffc6;
+    background-color: blue;
     border-radius: 15px;
     border-style: solid;
     border-width: 1px;
-    width: 150px;
+    width: 130px;
     align-self: center;
     height: 30px;
+    margin-top: 20px;
 }
 
 & button:hover{
