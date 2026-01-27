@@ -7,6 +7,8 @@ for(let i=0;i<9;i++){
 }
 console.log ("La suma total con FOR es ", resultado);
 
+
+
 let resultado2=0
 for(const nota of notas){
     resultado2+=nota;
