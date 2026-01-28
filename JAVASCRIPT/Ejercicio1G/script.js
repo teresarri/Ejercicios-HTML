@@ -92,3 +92,13 @@ let paresNumber= number.filter(function(par){
     return par % 2===0
 });
 console.log(paresNumber);
+
+
+//Concatenación de métodos
+
+const meses = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+const mayMeses = meses
+    .filter(mes=>mes.length > 7)
+    .map(mes=>mes.toUpperCase());
+
+console.log(mayMeses);
